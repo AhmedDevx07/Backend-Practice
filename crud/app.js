@@ -52,7 +52,7 @@ app.post("/users", (req, res) => {
 
   res.json({
     status: "ture",
-    message: "user add ho gaya",
+    message: "user added",
   });
 });
 app.listen(5000, () => {
